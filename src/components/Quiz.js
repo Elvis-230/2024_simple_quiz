@@ -42,10 +42,10 @@ class Quiz extends React.Component {
            <div style={quizPageStyle}>
             <h1>My Questions</h1>
                 {my_questions.map((quest) => (
-                <div> 
+                <div id="outer-div"> 
                     <h2>{quest["question"]}</h2>
                         {quest["answers"].map((ans) => (
-                            <div>
+                            <div id="mid-div">
                                 <label>
                                 <input  
                                         type = "radio"
