@@ -2,8 +2,8 @@
 class MyState {
 
     constructor() {
-        var my_score = 0;
-        var my_count = 0;
+        this.my_score = 0;
+        this.my_count = 0;
     }
 
 };
